@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117b4418-c886-42da-85ae-4d292bc6a2dd" name="Changes" comment="Vehicle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neueFische/Accelerateble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neueFische/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neueFische/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neueFische/BikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neueFische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neueFische/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,12 +44,112 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.neueFische" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BikeTest.wennGeschwindigkeitMehrAls35KmhIstFehler">
+    <configuration name="BikeTest.fahrradErhoehtDieGeschwindigkeit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neueFische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neueFische" />
+      <option name="MAIN_CLASS_NAME" value="de.neueFische.BikeTest" />
+      <option name="METHOD_NAME" value="fahrradErhoehtDieGeschwindigkeit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeTest.fahrradErhoehtDieGeschwindigkeitBis35Kmh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neueFische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neueFische" />
+      <option name="MAIN_CLASS_NAME" value="de.neueFische.BikeTest" />
+      <option name="METHOD_NAME" value="fahrradErhoehtDieGeschwindigkeitBis35Kmh" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeTest.wennGeschwindigkeitMehrAls35KmhIstFehler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neueFische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neueFische" />
+      <option name="MAIN_CLASS_NAME" value="de.neueFische.BikeTest" />
+      <option name="METHOD_NAME" value="wennGeschwindigkeitMehrAls35KmhIstFehler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neueFische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neueFische" />
+      <option name="MAIN_CLASS_NAME" value="de.neueFische.CarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.geschwindigkeitWirdErhoehtInBewegung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neueFische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neueFische" />
+      <option name="MAIN_CLASS_NAME" value="de.neueFische.CarTest" />
+      <option name="METHOD_NAME" value="geschwindigkeitWirdErhoehtInBewegung" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BikeTest.wennGeschwindigkeitMehrAls35KmhIstFehler" />
+        <item itemvalue="JUnit.BikeTest.fahrradErhoehtDieGeschwindigkeitBis35Kmh" />
+        <item itemvalue="JUnit.CarTest.geschwindigkeitWirdErhoehtInBewegung" />
+        <item itemvalue="JUnit.BikeTest.fahrradErhoehtDieGeschwindigkeit" />
+        <item itemvalue="JUnit.CarTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669899229383</updated>
-      <workItem from="1669899230616" duration="323000" />
+      <workItem from="1669899230616" duration="13000000" />
     </task>
     <task id="LOCAL-00001" summary="Vehicle">
       <created>1669899345595</created>
@@ -52,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669899345595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vehicle">
+      <created>1669899661407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669899661407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +194,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vehicle" />
     <option name="LAST_COMMIT_MESSAGE" value="Vehicle" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/de/neueFische/CarTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/de/neueFische/CarTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
